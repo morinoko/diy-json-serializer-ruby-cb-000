@@ -9,7 +9,7 @@ class PostSerializer
 
     # Author association
     serialized_post += '"author": {'
-    serialized_post += '"name": ' + post.author.name + '"}'
+    serialized_post += '"name": "' + post.author.name + '"}'
 
     # endig bracket
     serialized_post += '}'
